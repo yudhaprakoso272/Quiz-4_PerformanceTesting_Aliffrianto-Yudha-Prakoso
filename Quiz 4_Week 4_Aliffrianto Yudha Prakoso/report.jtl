@@ -1,0 +1,101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738673896450,1142,AUTH Request - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,text,true,,1264,296,5,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1142,0,825
+1738673896647,1062,AUTH Request - 2,200,OK,Test Plan Scenario - Stress Testing 2-2,text,true,,1264,296,5,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1062,0,754
+1738673896850,1120,AUTH Request - 3,200,OK,Test Plan Scenario - Stress Testing 2-3,text,true,,1264,296,5,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1120,0,789
+1738673896449,1522,AUTH Request - 1,200,OK,Test Plan Scenario - Load Testing 1-1,text,true,,1253,288,1,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1522,0,1129
+1738673897248,1148,AUTH Request - 5,200,OK,Test Plan Scenario - Stress Testing 2-5,text,true,,1264,296,5,6,https://thinking-tester-contact-list.herokuapp.com/users/login,1148,0,816
+1738673897593,919,Contact_Request - 1,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Stress Testing 2-1,,true,,4800,1930,5,7,null,0,3,0
+1738673897595,301,Add Contact - 1,201,Created,Test Plan Scenario - Stress Testing 2-1,text,true,,1070,857,5,6,https://thinking-tester-contact-list.herokuapp.com/contacts,301,0,0
+1738673897896,306,Get Contact List - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,text,true,,1705,536,5,6,https://thinking-tester-contact-list.herokuapp.com/contacts,306,0,0
+1738673898203,312,Get Contact - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,text,true,,2025,537,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,312,0,0
+1738673897067,1480,AUTH Request - 4,200,OK,Test Plan Scenario - Stress Testing 2-4,text,true,,1264,296,5,7,https://thinking-tester-contact-list.herokuapp.com/users/login,1480,0,1146
+1738673897710,903,Contact_Request - 2,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Stress Testing 2-2,,true,,5120,1930,5,7,null,0,1,0
+1738673897710,294,Add Contact - 2,201,Created,Test Plan Scenario - Stress Testing 2-2,text,true,,1070,857,5,6,https://thinking-tester-contact-list.herokuapp.com/contacts,294,0,0
+1738673898004,310,Get Contact List - 2,200,OK,Test Plan Scenario - Stress Testing 2-2,text,true,,2025,536,5,6,https://thinking-tester-contact-list.herokuapp.com/contacts,304,0,0
+1738673898315,299,Get Contact - 2,200,OK,Test Plan Scenario - Stress Testing 2-2,text,true,,2025,537,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,299,0,0
+1738673897971,957,Contact_Request - 3,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Stress Testing 2-3,,true,,5758,1930,5,7,null,0,1,0
+1738673897971,316,Add Contact - 3,201,Created,Test Plan Scenario - Stress Testing 2-3,text,true,,1070,857,5,6,https://thinking-tester-contact-list.herokuapp.com/contacts,316,0,0
+1738673898287,319,Get Contact List - 3,200,OK,Test Plan Scenario - Stress Testing 2-3,text,true,,2025,536,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts,319,0,0
+1738673898607,322,Get Contact - 3,200,OK,Test Plan Scenario - Stress Testing 2-3,text,true,,2663,537,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,322,0,0
+1738673897971,1008,Contact_Request - 1,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Load Testing 1-1,,true,,3180,1922,2,7,null,0,1,0
+1738673897971,338,Add Contact - 1,201,Created,Test Plan Scenario - Load Testing 1-1,text,true,,1062,849,1,6,https://thinking-tester-contact-list.herokuapp.com/contacts,338,0,0
+1738673898310,329,Get Contact List - 1,200,OK,Test Plan Scenario - Load Testing 1-1,text,true,,1059,536,2,7,https://thinking-tester-contact-list.herokuapp.com/contacts,329,0,0
+1738673898639,341,Get Contact - 1,200,OK,Test Plan Scenario - Load Testing 1-1,text,true,,1059,537,2,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,341,0,0
+1738673898397,974,Contact_Request - 5,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Stress Testing 2-5,,true,,6396,1930,5,7,null,0,1,0
+1738673898398,316,Add Contact - 5,201,Created,Test Plan Scenario - Stress Testing 2-5,text,true,,1070,857,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts,316,0,0
+1738673898714,327,Get Contact List - 5,200,OK,Test Plan Scenario - Stress Testing 2-5,text,true,,2663,536,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts,327,0,0
+1738673899041,331,Get Contact - 5,200,OK,Test Plan Scenario - Stress Testing 2-5,text,true,,2663,537,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,331,0,0
+1738673898547,972,Contact_Request - 4,200,"Number of samples in transaction : 3, number of failing samples : 0",Test Plan Scenario - Stress Testing 2-4,,true,,6396,1930,5,7,null,0,1,0
+1738673898548,307,Add Contact - 4,201,Created,Test Plan Scenario - Stress Testing 2-4,text,true,,1070,857,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts,307,0,0
+1738673898855,326,Get Contact List - 4,200,OK,Test Plan Scenario - Stress Testing 2-4,text,true,,2663,536,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts,326,0,0
+1738673899181,339,Get Contact - 4,200,OK,Test Plan Scenario - Stress Testing 2-4,text,true,,2663,537,5,7,https://thinking-tester-contact-list.herokuapp.com/contacts/,339,0,0
+1738673898446,1217,AUTH Request - 2,200,OK,Test Plan Scenario - Load Testing 1-2,text,true,,1253,288,2,7,https://thinking-tester-contact-list.herokuapp.com/users/login,1217,0,817
+1738673898515,1223,Users_Request - 1,400,"Number of samples in transaction : 4, number of failing samples : 1",Test Plan Scenario - Stress Testing 2-1,,false,,3180,2418,5,7,null,0,4,0
+1738673898517,302,Add User - 1,400,Bad Request,Test Plan Scenario - Stress Testing 2-1,text,false,Test failed: code expected to contain /201/,799,685,5,7,https://thinking-tester-contact-list.herokuapp.com/users,302,0,0
+1738673898820,299,Get User Profile - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,text,true,,863,504,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,299,0,0
+1738673899119,314,Update User - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,text,true,,863,669,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,314,0,0
+1738673899434,308,LogOut User - 1,200,OK,Test Plan Scenario - Stress Testing 2-1,,true,,655,560,5,7,https://thinking-tester-contact-list.herokuapp.com/users/logout,308,0,0
+1738673898615,1129,Users_Request - 2,400,"Number of samples in transaction : 4, number of failing samples : 2",Test Plan Scenario - Stress Testing 2-2,,false,,3312,2418,4,6,null,0,3,0
+1738673898615,287,Add User - 2,400,Bad Request,Test Plan Scenario - Stress Testing 2-2,text,false,Test failed: code expected to contain /201/,799,685,5,7,https://thinking-tester-contact-list.herokuapp.com/users,287,0,0
+1738673898903,287,Get User Profile - 2,200,OK,Test Plan Scenario - Stress Testing 2-2,text,true,,863,504,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,287,0,0
+1738673899191,294,Update User - 2,200,OK,Test Plan Scenario - Stress Testing 2-2,text,true,,863,669,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,294,0,0
+1738673899485,261,LogOut User - 2,401,Unauthorized,Test Plan Scenario - Stress Testing 2-2,text,false,Test failed: code expected to contain /200/,787,560,4,6,https://thinking-tester-contact-list.herokuapp.com/users/logout,261,0,0
+1738673898929,1181,Users_Request - 3,400,"Number of samples in transaction : 4, number of failing samples : 3",Test Plan Scenario - Stress Testing 2-3,,false,,3240,2418,3,5,null,0,4,0
+1738673898930,307,Add User - 3,400,Bad Request,Test Plan Scenario - Stress Testing 2-3,text,false,Test failed: code expected to contain /201/,799,685,5,7,https://thinking-tester-contact-list.herokuapp.com/users,307,0,0
+1738673899238,308,Get User Profile - 3,200,OK,Test Plan Scenario - Stress Testing 2-3,text,true,,863,504,5,7,https://thinking-tester-contact-list.herokuapp.com/users/me,308,0,0
+1738673899547,285,Update User - 3,401,Unauthorized,Test Plan Scenario - Stress Testing 2-3,text,false,Test failed: code expected to contain /200/,787,669,3,5,https://thinking-tester-contact-list.herokuapp.com/users/me,285,0,0
+1738673899833,281,LogOut User - 3,401,Unauthorized,Test Plan Scenario - Stress Testing 2-3,text,false,Test failed: code expected to contain /200/,791,560,3,5,https://thinking-tester-contact-list.herokuapp.com/users/logout,281,0,0
+1738673898980,1300,Users_Request - 1,400,"Number of samples in transaction : 4, number of failing samples : 1",Test Plan Scenario - Load Testing 1-1,,false,,3168,2466,2,4,null,0,2,0
+1738673898982,304,Add User - 1,400,Bad Request,Test Plan Scenario - Load Testing 1-1,text,false,Test failed: code expected to contain /201/,799,683,2,7,https://thinking-tester-contact-list.herokuapp.com/users,303,0,0
+1738673899286,318,Get User Profile - 1,200,OK,Test Plan Scenario - Load Testing 1-1,text,true,,852,504,2,7,https://thinking-tester-contact-list.herokuapp.com/users/me,318,0,0
+1738673899604,340,Update User - 1,200,OK,Test Plan Scenario - Load Testing 1-1,text,true,,858,670,2,5,https://thinking-tester-contact-list.herokuapp.com/users/me,340,0,0
+1738673899944,338,Delete User - 1,200,OK,Test Plan Scenario - Load Testing 1-1,,true,,659,609,2,4,https://thinking-tester-contact-list.herokuapp.com/users/me,338,0,0
+1738673899372,1154,Users_Request - 5,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Stress Testing 2-5,,false,,3168,2367,2,4,null,0,1,0
+1738673899372,310,Add User - 5,400,Bad Request,Test Plan Scenario - Stress Testing 2-5,text,false,Test failed: code expected to contain /201/,799,685,5,7,https://thinking-tester-contact-list.herokuapp.com/users,310,0,0
+1738673899682,282,Get User Profile - 5,401,Unauthorized,Test Plan Scenario - Stress Testing 2-5,text,false,Test failed: code expected to contain /200/,787,504,3,5,https://thinking-tester-contact-list.herokuapp.com/users/me,282,0,0
+1738673899964,279,Update User - 5,401,Unauthorized,Test Plan Scenario - Stress Testing 2-5,text,false,Test failed: code expected to contain /200/,791,618,2,4,https://thinking-tester-contact-list.herokuapp.com/users/me,279,0,0
+1738673900244,283,LogOut User - 5,401,Unauthorized,Test Plan Scenario - Stress Testing 2-5,text,false,Test failed: code expected to contain /200/,791,560,2,4,https://thinking-tester-contact-list.herokuapp.com/users/logout,283,0,0
+1738673899664,900,Contact_Request - 2,401,"Number of samples in transaction : 3, number of failing samples : 2",Test Plan Scenario - Load Testing 1-2,,false,,2644,1922,2,3,null,0,2,0
+1738673899665,335,Add Contact - 2,201,Created,Test Plan Scenario - Load Testing 1-2,text,true,,1062,849,2,5,https://thinking-tester-contact-list.herokuapp.com/contacts,335,0,0
+1738673900000,282,Get Contact List - 2,401,Unauthorized,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /200/,791,536,2,4,https://thinking-tester-contact-list.herokuapp.com/contacts,282,0,0
+1738673900282,283,Get Contact - 2,401,Unauthorized,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /200/,791,537,2,3,https://thinking-tester-contact-list.herokuapp.com/contacts/,283,0,0
+1738673899520,1153,Users_Request - 4,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Stress Testing 2-4,,false,,3172,2367,1,3,null,0,2,0
+1738673899520,309,Add User - 4,400,Bad Request,Test Plan Scenario - Stress Testing 2-4,text,false,Test failed: code expected to contain /201/,799,685,3,5,https://thinking-tester-contact-list.herokuapp.com/users,308,0,0
+1738673899829,283,Get User Profile - 4,401,Unauthorized,Test Plan Scenario - Stress Testing 2-4,text,false,Test failed: code expected to contain /200/,791,504,3,5,https://thinking-tester-contact-list.herokuapp.com/users/me,283,0,0
+1738673900112,283,Update User - 4,401,Unauthorized,Test Plan Scenario - Stress Testing 2-4,text,false,Test failed: code expected to contain /200/,791,618,2,3,https://thinking-tester-contact-list.herokuapp.com/users/me,283,0,0
+1738673900396,278,LogOut User - 4,401,Unauthorized,Test Plan Scenario - Stress Testing 2-4,text,false,Test failed: code expected to contain /200/,791,560,1,3,https://thinking-tester-contact-list.herokuapp.com/users/logout,278,0,0
+1738673900566,1125,Users_Request - 2,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Load Testing 1-2,,false,,3176,2364,2,2,null,0,0,0
+1738673900566,302,Add User - 2,400,Bad Request,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /201/,803,683,2,2,https://thinking-tester-contact-list.herokuapp.com/users,302,0,0
+1738673900868,281,Get User Profile - 2,401,Unauthorized,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /200/,791,504,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,281,0,0
+1738673901149,272,Update User - 2,401,Unauthorized,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /200/,791,619,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,272,0,0
+1738673901421,270,Delete User - 2,401,Unauthorized,Test Plan Scenario - Load Testing 1-2,text,false,Test failed: code expected to contain /200/,791,558,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,270,0,0
+1738673900444,2230,AUTH Request - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,,false,Response was null,673,288,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,2230,0,1937
+1738673902674,829,Contact_Request - 3,401,"Number of samples in transaction : 3, number of failing samples : 3",Test Plan Scenario - Load Testing 1-3,,false,,2385,980,2,2,null,0,0,0
+1738673902674,278,Add Contact - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /201/,795,535,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,278,0,0
+1738673902952,273,Get Contact List - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /200/,795,222,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,273,0,0
+1738673903225,278,Get Contact - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /200/,795,223,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts/,278,0,0
+1738673902450,1679,AUTH Request - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,,false,Response was null,665,288,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1679,0,1422
+1738673904130,771,Contact_Request - 4,401,"Number of samples in transaction : 3, number of failing samples : 3",Test Plan Scenario - Load Testing 1-4,,false,,2361,980,3,3,null,0,1,0
+1738673904130,254,Add Contact - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /201/,787,535,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,254,0,0
+1738673904385,259,Get Contact List - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /200/,787,222,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts,259,0,0
+1738673904644,258,Get Contact - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /200/,787,223,3,3,https://thinking-tester-contact-list.herokuapp.com/contacts/,258,0,0
+1738673903503,1581,Users_Request - 3,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Load Testing 1-3,,false,,3168,1108,3,3,null,0,0,0
+1738673903503,285,Add User - 3,400,Bad Request,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /201/,807,369,2,2,https://thinking-tester-contact-list.herokuapp.com/users,285,0,0
+1738673903788,252,Get User Profile - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /200/,787,190,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,252,0,0
+1738673904040,253,Update User - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /200/,787,305,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,253,0,0
+1738673904293,791,Delete User - 3,401,Unauthorized,Test Plan Scenario - Load Testing 1-3,text,false,Test failed: code expected to contain /200/,787,244,3,3,https://thinking-tester-contact-list.herokuapp.com/users/me,791,0,0
+1738673904451,1038,AUTH Request - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,,false,Response was null,669,288,2,2,https://thinking-tester-contact-list.herokuapp.com/users/login,1038,0,772
+1738673904903,1075,Users_Request - 4,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Load Testing 1-4,,false,,3176,1108,2,2,null,0,0,0
+1738673904903,301,Add User - 4,400,Bad Request,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /201/,803,369,2,2,https://thinking-tester-contact-list.herokuapp.com/users,301,0,0
+1738673905204,257,Get User Profile - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /200/,791,190,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,257,0,0
+1738673905461,259,Update User - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /200/,791,305,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,259,0,0
+1738673905720,258,Delete User - 4,401,Unauthorized,Test Plan Scenario - Load Testing 1-4,text,false,Test failed: code expected to contain /200/,791,244,2,2,https://thinking-tester-contact-list.herokuapp.com/users/me,258,0,0
+1738673905490,788,Contact_Request - 5,401,"Number of samples in transaction : 3, number of failing samples : 3",Test Plan Scenario - Load Testing 1-5,,false,,2373,980,1,1,null,0,0,0
+1738673905490,254,Add Contact - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /201/,791,535,2,2,https://thinking-tester-contact-list.herokuapp.com/contacts,254,0,0
+1738673905744,261,Get Contact List - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /200/,791,222,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,261,0,0
+1738673906005,273,Get Contact - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /200/,791,223,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/,273,0,0
+1738673906278,1156,Users_Request - 5,400,"Number of samples in transaction : 4, number of failing samples : 4",Test Plan Scenario - Load Testing 1-5,,false,,3176,1108,1,1,null,0,1,0
+1738673906278,308,Add User - 5,400,Bad Request,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /201/,803,369,1,1,https://thinking-tester-contact-list.herokuapp.com/users,307,0,0
+1738673906586,273,Get User Profile - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /200/,791,190,1,1,https://thinking-tester-contact-list.herokuapp.com/users/me,273,0,0
+1738673906860,279,Update User - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /200/,791,305,1,1,https://thinking-tester-contact-list.herokuapp.com/users/me,279,0,0
+1738673907139,296,Delete User - 5,401,Unauthorized,Test Plan Scenario - Load Testing 1-5,text,false,Test failed: code expected to contain /200/,791,244,1,1,https://thinking-tester-contact-list.herokuapp.com/users/me,296,0,0

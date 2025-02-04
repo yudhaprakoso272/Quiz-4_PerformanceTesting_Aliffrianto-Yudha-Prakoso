@@ -1,0 +1,7 @@
+firstName;lastName;birthdate;email;phone;street1;street2;city;stateProvince;postalCode;country
+John;Doe;01/01/1970;jdoe@fake.com;8005555555;1 Main St.;Apartment A;Anytown;KS;12345;USA
+Jane;Smith;15/03/1985;jsmith@fake.com;8005551234;25 Oak St.;Suite 10;Springfield;IL;62704;USA
+Michael;Johnson;22/07/1990;mjohnson@fake.com;8005559876;100 Maple Ave.;Unit 3B;Rivertown;TX;75001;USA
+Emily;Davis;30/11/1978;edavis@fake.com;8005554321;45 Pine St.;Floor 4;Lakeview;CA;90210;USA
+Robert;Wilson;05/06/1982;rwilson@fake.com;8005552468;78 Elm St.;;Hilltown;NY;10001;USA
+Olivia;Brown;18/09/1995;obrown@fake.com;8005551357;12 Cedar Blvd.;Apt. 9C;Greenfield;FL;33101;USA
